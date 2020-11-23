@@ -38,6 +38,7 @@ if __name__ == "__main__":
     person2 = sys.argv[2]
 
     try:
+        print("")
         print(ship(person1, person2))
         print("\n\n- Script by Luan")
     except Exception as e:
